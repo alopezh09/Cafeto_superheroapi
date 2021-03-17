@@ -14,40 +14,27 @@
 
 
                 htmlSuperHeroe = `
-                 <div class="col-cards-lo col-lg-4 col-md-4 col-sm-6 col-12 lo-card bd-highlight">
-                    <div class="row">
-
-                        <h4 class="superheroe-name">#superHeroeName</h4>
-                    
-                        <div class="superheroe-image">
-
-                            <img src="#superheroeImg" alt="logo"/>
-                        
-                        </div>
-
-                        <div class="superheroe-information">
-
-                            <div class="superheroe-skills">
-
-                              <span class="physical-strength">physical strength: #strength</span>
-                              <span class="special-powers">special powers: #powers</span>
-                              <span class="combat">Weapons: #combat</span>
-                            
-                            </div>
-
-                            <div class="superheroe-biografy">
-
-                              <p class="superheroe-biography-text">
-                                #biography
-                              </p>
-                            
-                            </div>
-                        
-                        </div>
-
-
-                    </div>  
-                  </div>`;
+                <div class="card" style="width: 18rem;">
+                  <div class="superheroe-image">
+                    <img src="#superheroeImg" alt="SuperHero_picture"/>
+                              </div>
+                  
+                  <div class="card-body">
+                    <h4 class="superheroe-name">#superHeroeName</h4>
+                    <p class="card-text">
+                      <span class="physical-strength">physical strength: #strength</span><br>
+                      <span class="special-powers">special powers: #powers</span><br>
+                      <span class="combat">Weapons: #combat</span><br>
+                    </p>
+                  </div>					  
+                  <div class="card-body">
+                    <div class="superheroe-biografy">
+                      <p class="superheroe-biography-text">
+                        #biography
+                      </p>
+                    </div>
+                  </div>
+                </div>`;
 
                                                   
                     
