@@ -1,0 +1,308 @@
+/**
+ * This file should contain frontend styles that 
+ * will be applied to all module instances.
+ */
+
+ /*h1 {
+  font-weight: bold !important;
+  font-size: 64px !important;
+  line-height: 67px !important;
+  color: #003665 !important;
+
+ }
+
+ h2 {
+  font-weight: bold !important;
+  font-size: 56px !important;
+  color: #003665 !important;
+ }
+
+ h3{
+  font-weight: bold !important;
+  font-size: 48px !important;
+  color: #003665 !important;
+ }
+
+ h4{
+
+  font-weight: bold !important;
+  font-size: 24px !important;
+  color: #003665 !important;
+
+ }
+
+ h5{
+
+  font-weight: bold !important;
+  font-size: 18px !important;
+  color: #003665 !important;
+
+ }
+
+ h6{
+
+  font-weight: bold;
+  font-size: 14px;
+  color: #003665 !important;
+
+ }*/
+
+
+ .state{
+   cursor: pointer;
+   color: #8f95a3;
+   font-weight: bold;
+   line-height: 32px;
+   letter-spacing: -0.34px;
+ }
+
+ .state:hover{
+  cursor: pointer; 
+  color: #00AD84;
+
+ }
+
+ .active{
+   color: #00AD84
+ }
+
+ .lo-card{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 200px !important;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+   
+ }
+
+ .label-text{
+   color: #81d900;
+   font-weight: bold;
+   display: inline-block;
+   padding-left: 15px;
+   text-transform: uppercase;
+
+ }
+
+
+
+ .dark-grey{
+  color: #6D6E71;
+ }
+
+ .accenting-color{
+  color: #81d900;
+  
+}
+ 
+
+ #loanofficers{
+   margin-top: 5px;
+   background-color: white;
+   
+ }
+
+ .image-cropper {
+  position: relative;
+  top: 5px;
+}
+
+.top-10px{
+  top: 10px;
+}
+
+.img {
+  max-width: inherit !important;
+  height: 70px;
+}
+
+.lo-name{
+  color: #003665;
+  font-size: 17px;
+  text-align: left;
+  line-height: 18px;
+  margin-bottom: 3px;
+  font-weight: bold;
+  width: 100px;
+}
+
+
+.lo-nmls{
+  color: #8f95a3;
+  font-size: 17px;
+  text-align: left;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.lo-card:hover{
+  cursor: pointer; 
+  color: white;
+  background-color:#00AD84;
+  
+  
+ }
+
+ .lo-card a:hover{
+   text-decoration: none;
+ }
+
+ .lo-card:hover p{
+ 
+  color: white !important;
+
+  
+ }
+
+ .title-find-loan-officer{
+   text-align: center;
+ }
+
+ .center-map{
+  margin-left: 50px;
+ }
+
+ .centrar{
+   margin: 0 auto;
+ }
+
+ .col-md-23{
+  -ms-flex: 0 0 80%;
+  flex: 0 0 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+
+
+#select-branch, #select-state{
+  border-radius: 15px;
+  color: #5ac3a7;
+  background-color: #cdefe7;
+}
+
+#map-container{
+    
+  margin-top: 50px;
+}
+
+#reset-results{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.select-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) { 
+
+  .select-container{
+    width: 100%;
+   
+  }
+
+  #map-container{
+
+    margin-top: 0;
+  }
+  .title-find-loan-officer{
+    text-align: left;
+    width: 600px;
+  }
+
+  .col-md-23{
+    -ms-flex: 0 0 23%;
+    flex: 0 0 23%;
+    max-width: 23%;
+  }
+
+  .lo-card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 275px !important;
+    margin: 5px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+     
+   }
+
+   .center-map{
+     margin-left: 100px;
+   }
+
+}
+
+
+.map-responsive{
+  width: 100%;
+  height: auto;
+}
+
+.map-responsive svg{
+  width: 100%;
+  height: 100%;
+}
+
+.lo-image-container{​​
+
+  max-width: 110px;
+}
+
+.col-cards-lo {
+  max-width: 360px ;
+  margin-top: 15px ;
+}
+
+
+@media (min-width: 576px) { 
+
+  .col-cards-lo{
+
+    flex: 0 0 48% !important;
+    max-width: 48% !important;
+    margin-top: 15px !important;
+
+  }
+
+  .img {
+    height: 50px;
+  }
+
+  ​​
+}
+
+@media (min-width: 768px) { 
+
+  .col-cards-lo{
+
+    flex: 0 0 48% !important;
+    max-width: 48% !important;
+    margin-top: 15px !important;
+
+  }
+
+  .img {
+    height: 70px;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+  
+  .col-cards-lo{
+
+    flex: 0 0 30.333333% !important;
+    max-width: 30.333333% !important;
+    margin-top: 15px !important;
+
+  }
+
+}
+
