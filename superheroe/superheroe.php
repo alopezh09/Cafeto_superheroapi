@@ -3,8 +3,8 @@
  * Plugin Name: SuperHero Plugin
  * Plugin URI: http://www.wpbeaverbuilder.com
  * Description: A plugin to super heroe card
- * Version: 2.0
- * Author: Alfonso Hidalgo
+ * Version: 1.0
+ * Author: Alfonso Lopez Hidalgo
  * Author URI: http://www.wpbeaverbuilder.com
  */
 define( 'FL_MODULE_SUPERHEROE_DIR', plugin_dir_path( __FILE__ ) );
