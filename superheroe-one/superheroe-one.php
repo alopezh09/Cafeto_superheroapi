@@ -10,4 +10,4 @@
 define( 'FL_MODULE_SUPERHEROEONE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'FL_MODULE_SUPERHEROEONE_URL', plugins_url( '/', __FILE__ ) );
 
-require_once FL_MODULE_SUPERHEROEONE_DIR . 'classes/superheroe-one-loader.php';
+require_once FL_MODULE_SUPERHEROEONE_DIR . 'classes/superheroe-one-loader.php'; 
