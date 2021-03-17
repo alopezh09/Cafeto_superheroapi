@@ -23,7 +23,6 @@ class SuperHeroe_Loader {
 		
 		// Load custom modules.
 		add_action( 'init', __CLASS__ . '::load_modules' );
-		
 
 	}
 	

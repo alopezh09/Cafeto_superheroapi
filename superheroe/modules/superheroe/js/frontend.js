@@ -50,9 +50,6 @@
 
             }
 
-
-
-
      }
 
      $.ajax({
@@ -68,23 +65,14 @@
 
                 
                 let dataJson = JSON.parse(data);
-                console.log(dataJson);
+                // console.log(dataJson);
                 let resultados = dataJson.results;
 
-                console.log(resultados);
+                // console.log(resultados);
                 init(resultados);
-
-              
-             
-            
-
-
-            
           
           });
 
-
-     
      //fin init
      //init(superheroes);
 

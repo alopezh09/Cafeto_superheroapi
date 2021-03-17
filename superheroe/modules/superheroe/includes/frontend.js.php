@@ -12,8 +12,6 @@
  */
 
 
-
-
 var superheroes = '<?php echo $settings->superheroe_name; ?>';
 var dir_plugin = '<?php echo FL_MODULE_SUPERHEROE_DIR; ?>';
 var url_plugin = '<?php echo FL_MODULE_SUPERHEROE_URL; ?>';

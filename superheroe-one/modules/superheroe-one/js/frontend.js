@@ -10,9 +10,6 @@
 
               var htmlSuperHeroe;                                     
 
-              
-
-
                 htmlSuperHeroe = `
                 <div class="card" style="width: 18rem;">
                   <div class="superheroe-image">
@@ -30,7 +27,9 @@
                   <div class="card-body">
                     <div class="superheroe-biografy">
                       <p class="superheroe-biography-text">
-                        #biography
+                        #biography <br>
+                        Alter Egos: #alter-egos <br>
+                        City: #work-base <br>
                       </p>
                     </div>
                   </div>
@@ -43,14 +42,11 @@
                 htmlSuperHeroe = htmlSuperHeroe.replace("#strength",item[0].powerstats.strength);   
                 htmlSuperHeroe = htmlSuperHeroe.replace("#powers",item[0].powerstats.power);
                 htmlSuperHeroe = htmlSuperHeroe.replace("#combat",item[0].powerstats.combat);
-                htmlSuperHeroe = htmlSuperHeroe.replace("#biography",item[0].biography["full-name"]);   
+                htmlSuperHeroe = htmlSuperHeroe.replace("#biography",item[0].biography["full-name"]);
+                htmlSuperHeroe = htmlSuperHeroe.replace("#alter-egos",item[0].biography["alter-egos"]);
+                htmlSuperHeroe = htmlSuperHeroe.replace("#work-base",item[0].work["base"]);   
                       
                 $( "#superheroes" ).append( htmlSuperHeroe );
-
-
-              
-
-
 
 
        }
@@ -64,26 +60,16 @@
             
           method: 'GET',
             }).then(function(data) {
-
-
                   
                   let dataJson = JSON.parse(data);
-                  console.log(dataJson);
+                  // console.log(dataJson);
                   let resultados = dataJson.results;
 
-                  console.log(resultados);
+                  // console.log(resultados);
                   init(resultados);
   
-                
-               
-              
-
-
-              
             
             });
-
-
        
        //fin init
        //init(superheroes);
